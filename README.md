@@ -1,3 +1,51 @@
+## Cara menjalankan aplikasi
+1. git clone 
+2. cd Student_task_management
+3. Jalankan apache dan mysql pada xammp
+4. Masuk phpmyadmin dan buat database bernama "database_ku" 
+5. Ubah file .env.example menjadi .env
+6. Pada File .env ubah database connection menjadi 
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=database_ku
+    DB_USERNAME=root
+    DB_PASSWORD=
+7. npm install
+8. composer install
+9. php artisan key:generate
+10. php artisan migrate:refresh --seed
+11. php artisan serve
+12. Masuk keteriminal baru
+13. npm run dev
+14. masuk ke http://127.0.0.1:8000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
